@@ -82,11 +82,15 @@ cursor: pointer;
 
 
 
+h2{
+    font-size: 58px;
+    max-width: 769px;
+}
 .emoji-blocks{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-gap: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
 }
 .block{
     max-width: 450px;
@@ -99,11 +103,6 @@ gap: 70px;
 }
 .block p {
     max-width: calc(13.5vw + 277px);
-}
-h2{
-    font-size: 58px;
-    max-width: 769px;
-  
 }
 
 h2{
@@ -119,7 +118,7 @@ h2{
     margin-bottom: calc(2.4vw + 21px);
 }
 .contentCard{
-    width: calc(8vw + 298px)
+    width: calc(8vw + 298px);
 
 }
 .contentCard h3{
@@ -132,8 +131,9 @@ h2{
 .contentCard p{
     font-size: calc(1vw + 14.2px);
 }
+
 h2{
-    font-size: calc(2.8vw +25px);
+    font-size: calc(2.8vw + 25px);
     text-transform: uppercase;
     font-weight: 500;
     margin-bottom: calc(7.7vw + 9px);
@@ -167,14 +167,14 @@ h2{
 .programCourse{
     margin-bottom: calc(1.8vw + 17.3px);
 }
-.programCourse ul li{
+.border ul li{
     border-bottom: 1px solid black;
     padding-bottom: 24px;
     margin-bottom: 24px;
     font-size: calc(0.6vw + 14px);/*21-16*/
 }
 .border ul li:last-child{
-    margin-bottom: 0;
+    margin-bottom: 0; 
 }
 .border .primary{
     display: block;
@@ -191,7 +191,9 @@ right: -8px;
 top: -3px;
 width: 120px;
 height: 120px;
-
+}
+.primary.mob{
+    display: none;
 }
 @media(max-width: 875px) {
     .primary.desc{
