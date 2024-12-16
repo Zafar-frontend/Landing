@@ -211,7 +211,7 @@ height: 120px;
      
     }
     .studentBox p{
-    max-width: calc(16vw + 248.4px);
+    max-width: calc(2.1vw + 248.4px);
     max-height: calc(1vw + 211.2px);
     flex-basis: 470px;
     flex-grow: 2;
