@@ -106,33 +106,6 @@ h2{
 }
 
 h2{
-    font-size: calc(2.7vw + 24px);
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-bottom: calc(7.7vw + 9px);
-}
-.content{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px 120px;
-    margin-bottom: calc(2.4vw + 21px);
-}
-.contentCard{
-    width: calc(8vw + 298px);
-
-}
-.contentCard h3{
-    font-weight: 600;
-    font-size: calc(1vw + 14.2px);
-    margin-bottom: calc(1.1vw + 9px);
-    text-transform: uppercase;
-    line-height: 140%;
-}
-.contentCard p{
-    font-size: calc(1vw + 14.2px);
-}
-
-h2{
     font-size: calc(2.8vw + 25px);
     text-transform: uppercase;
     font-weight: 500;
@@ -202,5 +175,54 @@ height: 120px;
     .primary.mob{
         display: block;
     }
+
 }
- 
+ .salary{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    font-family: 'TT Hoves', 'sans-serif';
+ }
+ .salary p{
+    max-width: calc(60.6vw + 100.9px);
+    font-weight: 400;
+    font-size: calc(1vw + 14.2px);
+    line-height: 140%;
+    margin-bottom:calc(1.8vw + 13.4px);
+   
+    }
+ .picHH{
+    max-width: calc(81.4vw + 22.6px);
+    max-height: calc(23.6vw + 7.3px); 
+
+ }    
+ h2{
+    font-size: calc(2.8vw + 25px);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: calc(2.2vw + 11.7px);
+ }
+ .studentBox{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px 0;
+     align-self: flex-end;
+     
+    }
+    .studentBox p{
+    max-width: calc(16vw + 248.4px);
+    max-height: calc(1vw + 211.2px);
+    flex-basis: 470px;
+    flex-grow: 2;
+    font-size: calc(0.3vw + 16.8px);
+    left: 640px;
+    margin-bottom: calc(0.6vw + 18px);
+ }
+ .boxPic{
+    max-width: calc(19.1vw + 334.3px);
+    max-height: calc(11.7vw +204px);
+    left: 61px;
+    flex-basis: 570px;
+    flex-grow: 1;
+ }
