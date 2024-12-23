@@ -377,6 +377,7 @@ h2 {
     justify-content: space-between;
 }
 .feedbackCard img:nth-child(1){
+  width: 38px;
     margin-bottom: 12px;
 }
 .feedbackCard p{
